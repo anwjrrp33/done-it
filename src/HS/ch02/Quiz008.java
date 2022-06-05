@@ -3,7 +3,8 @@ package HS.ch02;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 백준 1253
+// 백준 1253 '좋은 수' 구하기
+// 투 포인터
 public class Quiz008 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

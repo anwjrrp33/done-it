@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 백준 12891
+// 백준 12891 DNA 비밀번호
+// 슬라이딩 윈도우
 // 정답보고함(이해안감)
 public class Quiz009 {
     static int checkArr[];

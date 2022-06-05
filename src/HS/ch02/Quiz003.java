@@ -2,6 +2,8 @@ package HS.ch02;
 
 import java.util.Scanner;
 
+// 백준 11659 구간 합 구하기
+// 구간 합
 // BufferedReader, StringTokenizer를 쓰는게 더 좋겠다.
 // 입력받음과 동시에 합배열을 만드는게 좋겠다.
 public class Quiz003 {

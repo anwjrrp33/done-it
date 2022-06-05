@@ -2,7 +2,8 @@ package HS.ch02;
 
 import java.util.Scanner;
 
-// 숫자의 합 구하기
+// 백준 11720 숫자의 합 구하기
+// 배열과 리스트
 public class Quiz001 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

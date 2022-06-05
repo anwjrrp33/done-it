@@ -2,6 +2,8 @@ package HS.ch02;
 
 import java.util.Scanner;
 
+// 백준 1546 평균 구하기
+// 배열과 리스트
 public class Quiz002 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
