@@ -3,7 +3,8 @@ package HS.ch02;
 import java.util.Arrays;
 import java.util.Scanner;
 
-// 백준 1940
+// 백준 1940 주몽의 명령
+// 투 포인터
 // 정답보고함
 public class Quiz007 {
     public static void main(String[] args) {

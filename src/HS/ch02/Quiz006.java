@@ -1,7 +1,8 @@
 package HS.ch02;
 
 import java.util.Scanner;
-// 백준 2018
+// 백준 2018 연속된 자연수의 합 구하기
+// 투 포인터
 // 정답보고함
 public class Quiz006 {
     public static void main(String[] args) {
