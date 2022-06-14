@@ -5,6 +5,7 @@ import java.util.Scanner;
 // 백준 - 1427
 // 선택 정렬 사용
 public class Quiz017 {
+    // 선택정렬 사용
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
