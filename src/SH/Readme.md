@@ -49,8 +49,66 @@ sum == N: end_index++; sum = sum + end_index; count++;
   * 대상에서 가장 크거나 작은 데이터를 찾아가 선택을 반복하면서 정렬하는 방식 
 * 삽입
   * 대상을 선택해 정렬된 영역에서 선택 데이터의 적절한 위치를 찾아 삽입하면서 정렬하는 방식
+```
+// 삽입 정렬 예제코드
+int[] A = { 4, 5, 1, 3, 2 };
+
+for(int i = 1; i < A.length; i++) {
+    int n = A[i];
+    int j = i - 1;
+    while(j >= 0 && n < A[j]) {
+        A[j + 1] = A[j];
+        j--;
+    }
+    A[j + 1] = n;
+}
+
+for(int n: A) {
+    System.out.print(n + " ");
+}
+```
 * 퀵
   * pivot 값을 선정해 해당 값을 기준으로 정렬하는 방식
+```
+// 퀵 정렬(오른쪽 피벗) 예제코드
+public static void main(String[] args) {
+    int[] A = { 42, 32, 24, 60, 15, 5, 90, 45 };
+
+    quickSort(A, 0, A.length - 1);
+
+    for(int n: A) {
+        System.out.print(n + " ");
+    }
+}
+
+public static void quickSort(int[] A, int start, int end) {
+    if(start >= end) { return; }
+
+    int pivot = end;
+    int left = start;
+    int right = end - 1;
+
+    while(left <= right) {
+        while(A[left] <= A[pivot] && left < end) {
+            left++;
+        }
+        while(A[right] >= A[pivot] && right > start) {
+            right--;
+        }
+        if(left > right) {
+            int temp = A[right];
+            A[right] = A[start];
+            A[start] = temp;
+        } else {
+            int temp = A[right];
+            A[right] = A[left];
+            A[left] = temp;
+        }
+    }
+    quickSort(A, start, left - 1);
+    quickSort(A, left + 1, end);
+}
+```
 * 병합
   * 이미 정렬된 부분 집합들을 효율적으로 병합해 전체를 정렬하는 방식
 * 기수
