@@ -29,8 +29,11 @@ public class QuickSort1 {
         return Stream.of(quickSort(lesserArr), equalArr, quickSort(greaterArr))
                 .flatMap(Collection::stream)
                 .collect(Collectors.toList());
-
     }
+    // 위는 간결하고 이해하기 쉽지만 매번 재귀 호출될 때마다 새로운
+    // 리스트를 생성하여 리턴이기 때문ㅇ ㅔ메모리 사용측면에서 비효율적.
+    // 따라서 위 정렬보다는 추가 메모리 사용이 적은 in-place 정렬이 선호된다.
+
 
 
 }
