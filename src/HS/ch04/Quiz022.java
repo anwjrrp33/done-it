@@ -1,4 +1,4 @@
-package HS.ch02;
+package HS.ch04;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

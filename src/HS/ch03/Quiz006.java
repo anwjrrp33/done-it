@@ -1,4 +1,4 @@
-package HS.ch02;
+package HS.ch03;
 
 import java.util.Scanner;
 // 백준 2018 연속된 자연수의 합 구하기

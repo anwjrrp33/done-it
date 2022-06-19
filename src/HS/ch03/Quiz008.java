@@ -1,4 +1,4 @@
-package HS.ch02;
+package HS.ch03;
 
 import java.util.Arrays;
 import java.util.Scanner;

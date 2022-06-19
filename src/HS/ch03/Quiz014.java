@@ -1,4 +1,4 @@
-package HS.ch02;
+package HS.ch03;
 
 // 백준 11286 절댓값 힙 구현하기
 // 정답보고함
