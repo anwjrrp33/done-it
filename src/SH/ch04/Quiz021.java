@@ -1,11 +1,12 @@
-package SH;
+package SH.ch04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+// 백준 1517번
+public class Quiz021 {
     public static int[] A, tmp;
 
     public static long result;

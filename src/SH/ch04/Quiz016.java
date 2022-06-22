@@ -1,4 +1,4 @@
-package SH.ch02;
+package SH.ch04;
 
 import java.io.BufferedReader;
 import java.io.IOException;
